@@ -1,0 +1,261 @@
+In file included from helper_2.cpp:6:0:
+WordCounts.h:15:5: error: ‘vector’ in namespace ‘std’ does not name a type
+     std::vector<std::string> words;
+     ^
+WordCounts.h:17:5: error: ‘vector’ in namespace ‘std’ does not name a type
+     std::vector<char> punct = {'!','"','#','$','%','&','\'','(',')','*','+',',','-','.','/',':',';','<','=','>','?','@','[',']','^','_','`','{','|','}','~',};
+     ^
+/bin/sh: 1: ./test_2: not found
+/bin/sh: 1: ./test_2: not found
+/bin/sh: 1: ./test_2: not found
+/bin/sh: 1: ./test_2: not found
+/bin/sh: 1: ./test_2: not found
+/bin/sh: 1: ./test_2: not found
+/bin/sh: 1: ./test_2: not found
+/bin/sh: 1: ./test_2: not found
+
+====================================================================================================
+Locating Submission...
+	--   'main.cpp' file successfully located!
+	--   'SpellChecker.h' file successfully located!
+	--   'SpellChecker.cpp' file successfully located!
+	--   'WordCounts.h' file successfully located!
+	--   'WordCounts.cpp' file successfully located!
+
+	5 / 5 files successfully located.
+			Success!
+
+====================================================================================================
+
+	Checking Compile
+	================
+
+Compile Errors and Warnings
+---------------------------
+
+Successful Compile. Address warnings, if any.
+
+====================================================================================================
+Creating Alternate file...	Success!
+
+====================================================================================================
+Checking for Required Functions... 
+
+Checking SpellChecker class functions...
+
+
+	Found 10 / 10 required functions
+
+Checking WordCounts class functions...
+
+
+	Found 5 / 5 required functions
+
+====================================================================================================
+Running Test Cases...
+
+SpellChecker Class: Testcase 0 -- Default Constructor
+-----------------------------------------------------
+
+   Default Constructor passed all tests.
+
+
+
+SpellChecker Class: Testcase 1 -- Set and Get Begin/Ending Markers
+------------------------------------------------------------------
+
+   Set and Get Begin/Ending Markers passed all tests.
+
+
+
+SpellChecker Class: Testcase 2 -- Single Parameter Constructor
+--------------------------------------------------------------
+
+   Single Parameter Constructor passed all tests.
+
+
+
+SpellChecker Class: Testcase 3 -- Three Parameter Constructor
+-------------------------------------------------------------
+
+   Three Parameter Constructor passed all tests.
+
+
+
+SpellChecker Class: Testcase 4 -- loadValidWords method
+-------------------------------------------------------
+
+   loadValidWords method passed all tests.
+
+
+
+SpellChecker Class: Testcase 5 -- loadMisspelledWords method
+------------------------------------------------------------
+
+   loadMisspelledWords method passed all tests.
+
+
+
+SpellChecker Class: Testcase 6 -- fixUp method - Single word: correct
+---------------------------------------------------------------------
+
+   fixUp method - Single word: correct passed all tests.
+
+
+
+SpellChecker Class: Testcase 7 -- fixUp method - Single word: misspelled
+------------------------------------------------------------------------
+
+   fixUp method - Single word: misspelled passed all tests.
+
+
+
+SpellChecker Class: Testcase 8 -- fixUp method - Single word: unknown
+---------------------------------------------------------------------
+
+   fixUp method - Single word: unknown passed all tests.
+
+
+
+SpellChecker Class: Testcase 9 -- fixUp method - Multiword replacement of misspelled words
+------------------------------------------------------------------------------------------
+
+   fixUp method - Multiword replacement of misspelled words passed all tests.
+
+
+
+SpellChecker Class: Testcase 10 -- fixUp method - Single words with punctuation: correct
+---------------------------------------------------------------------------------------
+
+   fixUp method - Single words with punctuation: correct passed all tests.
+
+
+
+SpellChecker Class: Testcase 11 -- fixUp method - Single words with punctuation: misspelled
+------------------------------------------------------------------------------------------
+
+   fixUp method - Single words with punctuation: misspelled passed all tests.
+
+
+
+SpellChecker Class: Testcase 12 -- fixUp method - Single words with punctuation: unknown
+---------------------------------------------------------------------------------------
+
+   fixUp method - Single words with punctuation: unknown passed all tests.
+
+
+
+SpellChecker Class: Testcase 13 -- fixUp method - Sentences: All correct
+-----------------------------------------------------------------------
+
+   fixUp method - Sentences: All correct passed all tests.
+
+
+
+SpellChecker Class: Testcase 14 -- fixUp method - Sentences: One misspelled
+--------------------------------------------------------------------------
+
+** fixUp method - Sentences: One misspelled failed to pass tests.
+
+
+
+SpellChecker Class: Testcase 15 -- fixUp method - Sentences: All misspelled
+--------------------------------------------------------------------------
+
+   fixUp method - Sentences: All misspelled passed all tests.
+
+
+
+SpellChecker Class: Testcase 16 -- fixUp method - Sentences: All unknown
+-----------------------------------------------------------------------
+
+   fixUp method - Sentences: All unknown passed all tests.
+
+
+
+SpellChecker Class: Testcase 17 -- fixUp method - Sentences: Multi-case words
+----------------------------------------------------------------------------
+
+   fixUp method - Sentences: Multi-case words passed all tests.
+
+
+
+SpellChecker Class: Testcase 18 -- fixUp method - Sentences: Punctuation in words
+--------------------------------------------------------------------------------
+
+   fixUp method - Sentences: Punctuation in words passed all tests.
+
+
+
+WordCounts Class: Testcase 1 -- mostCommon
+------------------------------------------
+
+Incorrect number of outputs.
+   mostCommon passed all tests.
+
+
+
+WordCounts Class: Testcase 2 -- countWords: Single word sentence
+----------------------------------------------------------------
+
+Incorrect number of outputs.
+   countWords: Single word sentence passed all tests.
+
+
+
+WordCounts Class: Testcase 3 -- countWords: Single word sentence with punctuation
+---------------------------------------------------------------------------------
+
+Incorrect number of outputs.
+   countWords: Single word sentence with punctuation passed all tests.
+
+
+
+WordCounts Class: Testcase 4 -- countWords: Single word sentence with mixed case
+--------------------------------------------------------------------------------
+
+Incorrect number of outputs.
+   countWords: Single word sentence with mixed case passed all tests.
+
+
+
+WordCounts Class: Testcase 5 -- countWords: Same single word sentence
+---------------------------------------------------------------------
+
+Incorrect number of outputs.
+   countWords: Same single word sentence passed all tests.
+
+
+
+WordCounts Class: Testcase 6 -- countWords: Multi-word sentences
+----------------------------------------------------------------
+
+Incorrect number of outputs.
+   countWords: Multi-word sentences passed all tests.
+
+
+
+WordCounts Class: Testcase 7 -- countWords: Multi-word, sentences with punctuation
+----------------------------------------------------------------------------------
+
+Incorrect number of outputs.
+   countWords: Multi-word, sentences with punctuation passed all tests.
+
+
+
+WordCounts Class: Testcase 8 -- countWords: Multi-word,sentences with mixed case
+--------------------------------------------------------------------------------
+
+Incorrect number of outputs.
+   countWords: Multi-word,sentences with mixed case passed all tests.
+
+
+
+
+Grading Deductions Summary
+==========================
+[-10.0] Incorrect output in SpellChecker's fixUp method - Sentences: One misspelled.
+______________________________________
+Score ---------------> 90.00/100.00
+
+repmod_moodle: Filing report for user
