@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4696CD051E3FE293006AD682"
-               BuildableName = "Recitation 4"
-               BlueprintName = "Recitation 4"
-               ReferencedContainer = "container:Recitation 4.xcodeproj">
+               BlueprintIdentifier = "462DBD4B1E94164E007E8B50"
+               BuildableName = "Recitation4"
+               BlueprintName = "Recitation4"
+               ReferencedContainer = "container:Recitation4.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4696CD051E3FE293006AD682"
-            BuildableName = "Recitation 4"
-            BlueprintName = "Recitation 4"
-            ReferencedContainer = "container:Recitation 4.xcodeproj">
+            BlueprintIdentifier = "462DBD4B1E94164E007E8B50"
+            BuildableName = "Recitation4"
+            BlueprintName = "Recitation4"
+            ReferencedContainer = "container:Recitation4.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4696CD051E3FE293006AD682"
-            BuildableName = "Recitation 4"
-            BlueprintName = "Recitation 4"
-            ReferencedContainer = "container:Recitation 4.xcodeproj">
+            BlueprintIdentifier = "462DBD4B1E94164E007E8B50"
+            BuildableName = "Recitation4"
+            BlueprintName = "Recitation4"
+            ReferencedContainer = "container:Recitation4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4696CD051E3FE293006AD682"
-            BuildableName = "Recitation 4"
-            BlueprintName = "Recitation 4"
-            ReferencedContainer = "container:Recitation 4.xcodeproj">
+            BlueprintIdentifier = "462DBD4B1E94164E007E8B50"
+            BuildableName = "Recitation4"
+            BlueprintName = "Recitation4"
+            ReferencedContainer = "container:Recitation4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
