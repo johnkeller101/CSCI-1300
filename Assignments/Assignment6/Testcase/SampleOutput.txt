@@ -1,0 +1,8 @@
+Aquaman,49,F
+Batman,75.4,C
+Captain America,67.6,D
+Captain Atom,67.4,D
+Diana Prince,69.8,D
+Iron Man,70.2,C
+Spiderman,76.4,C
+Wolverine,74.6,C

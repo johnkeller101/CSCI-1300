@@ -1,0 +1,8 @@
+Aquaman,51,58,42,69,25
+Diana Prince,25,91,87,68,78
+Batman,58,78,96,68,77
+Captain America,78,69,78,65,48
+Iron Man,14,78,96,85,78
+Spiderman,47,96,87,56,96
+Wolverine,14,98,78,87,96
+Captain Atom,14,74,75,76,98

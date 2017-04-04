@@ -1,0 +1,10 @@
+——Student Profile——
+
+Name: John Keller
+
+Major/minor: Computer Science
+
+Programming experience: Some
+
+What do you expect to learn in this course? How to submit assignments on Moodle, some more structured programing.
+
