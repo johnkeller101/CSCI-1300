@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		462DBD381E93FB3A007E8B50 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 462DBD371E93FB3A007E8B50 /* main.cpp */; };
-		462DBD401E93FB61007E8B50 /* rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 462DBD3E1E93FB61007E8B50 /* rect.cpp */; };
+		46374CB61E9ADC7A00EA48E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 462DBD371E93FB3A007E8B50 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +27,8 @@
 		462DBD371E93FB3A007E8B50 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		462DBD3E1E93FB61007E8B50 /* rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rect.cpp; sourceTree = "<group>"; };
 		462DBD3F1E93FB61007E8B50 /* rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rect.h; sourceTree = "<group>"; };
+		46374CB71E9ADCAF00EA48E1 /* names.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = names.txt; path = "../../Recitation 11 Files/names.txt"; sourceTree = "<group>"; };
+		46374CB81E9ADCB600EA48E1 /* stringReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringReader.cpp; path = "../../Recitation 11 Files/stringReader.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,8 @@
 				462DBD371E93FB3A007E8B50 /* main.cpp */,
 				462DBD3E1E93FB61007E8B50 /* rect.cpp */,
 				462DBD3F1E93FB61007E8B50 /* rect.h */,
+				46374CB71E9ADCAF00EA48E1 /* names.txt */,
+				46374CB81E9ADCB600EA48E1 /* stringReader.cpp */,
 			);
 			path = Recitation11;
 			sourceTree = "<group>";
@@ -77,6 +80,7 @@
 				462DBD301E93FB3A007E8B50 /* Sources */,
 				462DBD311E93FB3A007E8B50 /* Frameworks */,
 				462DBD321E93FB3A007E8B50 /* CopyFiles */,
+				46374CBB1E9ADE0800EA48E1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -120,13 +124,28 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46374CBB1E9ADE0800EA48E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $PROJECT_DIR/$PROJECT_NAME/\nzip -r $PROJECT_NAME.zip . -x \"*.txt\"\ncp $PROJECT_DIR/$PROJECT_NAME/$PROJECT_NAME.zip ../..\nrm -f $PROJECT_NAME.zip";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		462DBD301E93FB3A007E8B50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				462DBD381E93FB3A007E8B50 /* main.cpp in Sources */,
-				462DBD401E93FB61007E8B50 /* rect.cpp in Sources */,
+				46374CB61E9ADC7A00EA48E1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +278,7 @@
 				462DBD3D1E93FB3A007E8B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

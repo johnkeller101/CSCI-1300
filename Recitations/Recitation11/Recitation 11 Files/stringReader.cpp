@@ -8,8 +8,7 @@ using namespace std;
 
 class StringReader{
 	private:
-		//TODO: Initialize an empty vector of type string here
-		//The name of the vector should be "stringList"
+    std::vector<std::string> stringList;
 	public:
 		void readFromFile(string);
 		int findFirstStringMatch(string);
@@ -25,7 +24,7 @@ void StringReader::readFromFile(string filename)
 	string line;
 	while(getline(inputFile, line))
 	{
-		//TODO: Append the variable read from the file to stringList
+        stringList.push_back(line);
 	}
 }
 
@@ -35,7 +34,10 @@ int StringReader::findFirstStringMatch(string substring)
 	int length = stringList.size();
 	for (int i=0; i < length; i++)
 	{
-		//Add code to return the ONLY first match
+        if(substring == stringList[i]){
+            val = i;
+            break;
+        }
 	}
 	return val+1;
 }
@@ -63,15 +65,13 @@ int main()
 	StringReader rdr;
 	rdr.readFromFile("names.txt");
 	cout<< "The names in the vector are: \n";
-	for (i=0; i<rdr.getListSize(); i++)
-	{
+	for (int i=0; i<rdr.getListSize(); i++) {
 		cout<< rdr.getStringAtIndex(i)<< endl;
 	}
 	cout<< "Deleting all names containing \'ik\'";
 	rdr.removeStringbyValue("ik");
 	cout<< "The names in the vector are: \n";
-	for (i=0; i<rdr.getListSize(); i++)
-	{
+	for (int i=0; i<rdr.getListSize(); i++) {
 		cout<< rdr.getStringAtIndex(i)<< endl;
 	}
 }

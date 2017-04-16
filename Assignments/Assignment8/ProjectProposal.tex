@@ -1,0 +1,172 @@
+\documentclass{article}
+
+\usepackage{fancyhdr}
+\usepackage{extramarks}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage[plain]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{tikz,pgfplots,multicol,lstautogobble}
+
+\usetikzlibrary{automata,positioning}
+
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName}
+\chead{\hmwkClass\ (\hmwkClassInstructor\ \hmwkClassTime)}
+\rhead{\hmwkTitle}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+
+\setcounter{secnumdepth}{0}
+\newcounter{partCounter}
+\newcounter{homeworkProblemCounter}
+\setcounter{homeworkProblemCounter}{1}
+\nobreak\extramarks{Problem \arabic{homeworkProblemCounter}}{}\nobreak{}
+
+%
+% Homework Problem Environment
+%
+% This environment takes an optional argument. When given, it will adjust the
+% problem counter. This is useful for when the problems given for your
+% assignment aren't sequential. See the last 3 problems of this template for an
+% example.
+%
+\newenvironment{homeworkProblem}[1][-1]{
+    \ifnum#1>0
+        \setcounter{homeworkProblemCounter}{#1}
+    \fi
+    \section{Problem \arabic{homeworkProblemCounter}}
+    \setcounter{partCounter}{1}
+    \enterProblemHeader{homeworkProblemCounter}
+}{
+    \exitProblemHeader{homeworkProblemCounter}
+}
+
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+
+\newcommand{\hmwkTitle}{Project Proposal}
+\newcommand{\hmwkDueDate}{April 7, 2017}
+\newcommand{\hmwkClass}{CSCI 1300}
+\newcommand{\hmwkClassTime}{Section 100}
+\newcommand{\hmwkClassInstructor}{Professor David Knox}
+\newcommand{\hmwkAuthorName}{\textbf{John Keller}}
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{2in}
+    \textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate\ at 12:30pm}\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
+    \vspace{3in}
+}
+
+\author{\hmwkAuthorName}
+\date{}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+%
+% Various Helper Commands
+%
+
+% Useful for algorithms
+\newcommand{\alg}[1]{\textsc{\bfseries \footnotesize #1}}
+
+% For derivatives
+\newcommand{\deriv}[1]{\frac{\mathrm{d}}{\mathrm{d}x} (#1)}
+
+% For partial derivatives
+\newcommand{\pderiv}[2]{\frac{\partial}{\partial #1} (#2)}
+
+% Integral dx
+\newcommand{\dx}{\mathrm{d}x}
+
+% Alias for the Solution section header
+\newcommand{\solution}{\textbf{\large Solution}}
+
+% Probability commands: Expectation, Variance, Covariance, Bias
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\Bias}{\mathrm{Bias}}
+
+\begin{document}
+
+
+\lstset{basicstyle=\fontsize{9}{10}\ttfamily,
+  mathescape=true,
+  escapeinside=||,
+  autogobble,
+  tabsize=4,
+  breaklines=true,
+  commentstyle=\color{gray},
+  morecomment=[l]{//},
+  postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{black}\hookrightarrow\space}}}
+
+\section{What is your project?}
+
+My project is a recreation of a graphing calculator. The core idea is that a user can enter a function, or select a .csv file, and easily visualize the dataset. In addition, for functions, the user can specify the domain, range, and point frequency, which can allow for a much better output. In addition, the user can specify an even larger domain and range which can be saved to a text file.
+
+\section{What is the goal of this project?}
+
+The goal of this project is to be able to do similar functions as a TI calculator, but on a computer, and in a command line interface.
+
+\section{Explain why you designed your class this way.}
+
+I have designed my classes in order to make the graph be generated as quickly as possible. There are three class files: importCSV, tangentLine, makeGraph. The idea behind the tangentLine class is that the user can input a function and a specific point to be drawn in the makeGraph class, and retrieve the slope of the line, which allows the graph output to use more accurate drawing, for example using / or - as opposed to a simple $\cdot$.
+
+\section{Why have you chosen these data members and how do you plan to use them.}
+
+The complexity of this project was mostly decided because of the requirements. In addition, it allows the project to be more useful for the user.
+
+\section{Explain how the design meets the requirement.}
+This design meets the requirements because it does have a File IO portion, as long as multiple user defined classes. In addition, there are many variables inside each class, and multiple constructors in order to make the program more efficient. In addition, there are also destructors in order to clear the valuable memory.
+
+%\section{Minimum proposal requirements}
+%
+%\begin{itemize}
+%	\item 2+ user defined classes
+%	\item 4+ data members per class (including at least one use of an array of user defined objects)
+%	\item 4+ methods per class (access, manipulation)
+%	\item Methods for each class item must include at least:
+%		\begin{itemize}
+%			\item 2+ if/if-else statements
+%			\item 2+ while loops
+%			\item 2+ for loops
+%			\item File IO for reading and writing data members of an object
+%		\end{itemize}
+%\end{itemize}
+
+
+\end{document}
