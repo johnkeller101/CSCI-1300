@@ -1,0 +1,55 @@
+Douglas Adams,The Hitchhiker's Guide To The Galaxy
+Richard Adams,Watership Down
+Mitch Albom,The Five People You Meet in Heaven
+Laurie Halse Anderson,Speak
+Maya Angelou,I Know Why the Caged Bird Sings
+Jay Asher,Thirteen Reasons Why
+Isaac Asimov,Foundation Series
+Ann Brashares,The Sisterhood of the Travelling Pants
+Libba Bray,A Great and Terrible Beauty
+Dan Brown,The Da Vinci Code
+Meg Cabot,The Princess Diaries
+Orson Scott Card,Ender's Game
+Tom Clancy,The Hunt for Red October
+Suzanne Collins,The Hunger Games
+F. Scott Fitzgerald,The Great Gatsby
+John Flanagan,Ranger's Apprentice Series
+Cornelia Funke,Inkheart
+William Gibson,Neuromancer
+William Golding,Lord of the Flies
+William Goldman,The Princess Bride
+James Gurney,Dinotopia: A Land Apart from Time
+Will Hobbs,Far North
+Alice Hoffman,Practical Magic
+Aldous Huxley,Brave New World
+Guy Gavriel Kay,The Summer Tree
+Daniel Keyes,Flowers For Algernon
+Patrice Kindl,Owl in Love
+Masashi Kishimoto,Naruto
+Tite Kubo,Bleach (graphic novel)
+Elizabeth Laird,Kiss the Dust
+Harper Lee,To Kill a Mockingbird
+C S Lewis,The Lion the Witch and the Wardrobe
+Robert Ludlum,The Bourne Series
+Yann Martel,Life of Pi
+Lurlene McDaniel,Breathless
+Stephenie Meyer,Twilight Series
+Garth Nix,Sabriel
+George Orwell,Nineteen Eighty-Four (1984)
+Christopher Paolini,Eragon
+Gary Paulsen,Hatchet
+Jodi Picoult,My Sister's Keeper
+Philip Pullman,The Golden Compass
+J.K. Rowling,Harry Potter Series
+Louis Sachar,Holes
+Shueisha,Shonen Jump Series
+Neil Shusterman,The Shadow Club
+Jeff Smith,Bone Series
+Art Spiegelman,Maus: A Survivor's Tale
+Amy Tan,The Joy Luck Club
+J R R Tolkien,The Lord of the Rings
+J R R Tolkien,The Hobbit
+Eric Walters,Shattered
+H G Wells,The War Of The Worlds
+Patricia C. Wrede,Dealing with Dragons
+John Wyndham,The Chrysalids

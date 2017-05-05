@@ -76,12 +76,15 @@ void compare3Genomes(string genome1, string name1, string genome2, string name2,
     string items[3][2] = {{name1, genome1},{name2,genome2},{name3,genome3}};
     
     int i = 0;
+    float result = 0;
     for(auto & item : items){
         float score = compareDNA(item[1], seq);
         scores[i] = score;
+        if(score > result){
+            result = score;
+        }
         i++;
     }
-    float result = std::max_element(scores,scores+3)[0];
     
     int t = 0;
     
